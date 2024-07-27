@@ -152,3 +152,49 @@ footer p {
         font-size: 0.8rem;
     }
 }
+
+/* Media queries para pantallas grandes (tabletas) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .product {
+        width: calc(100% / 3 - 20px);
+    }
+
+    header img {
+        width: 70%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2, #catalog h2, #social-media h2 {
+        font-size: 1.4rem;
+    }
+
+    p, .product p, footer p {
+        font-size: 1rem;
+    }
+}
+
+/* Media queries para pantallas grandes (monitores de laptops y más grandes) */
+@media (min-width: 1025px) {
+    .product {
+        width: calc(100% / 4 - 20px);
+    }
+
+    header img {
+        width: 60%;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    h2, #catalog h2, #social-media h2 {
+        font-size: 1.6rem;
+    }
+
+    p, .product p, footer p {
+        font-size: 1.1rem;
+    }
+}
