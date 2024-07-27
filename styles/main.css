@@ -8,7 +8,7 @@
         background: linear-gradient(to bottom, #ff0000, #ffe7f2);
     }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -85,7 +85,7 @@
     }
 
 }
-@media (max-width: 200px) {
+@media (min-width: 200px) {
     body {
         font-family: 'Kalnia Glaze', sans-serif;
         margin: 0;
